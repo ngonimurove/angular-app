@@ -16,6 +16,7 @@ var myObject = {
 	key1: 'this is the value',
 	anotherKey: [1,2,3,4]
 }
+
 // myObject.anotherKey[3] === 4
 
 // FUNCTIONS
@@ -24,18 +25,20 @@ var myFunction = function(arg){
 	return 'argument is ' + arg
 }
 
+// console.log('The function returns: ' + myFunction('foo'))
+
 var addTwo = function(a, b){
 	var num1 = parseInt(a)
 	var num2 = parseInt(b)
 	return num1 + num2
 }
 
-var inputA = prompt('enter a number!')
-var inputB = prompt('enter another number!')
+// var inputA = prompt('enter a number!')
+// var inputB = prompt('enter another number!')
 
-alert('The answer to ' + inputA + ' + ' + inputB + '= ' + addTwo(inputA, inputB))
-
-// console.log('The function returns: ' + myFunction('foo'))
-
+// alert('The answer to ' + 
+// 		inputA + ' + ' + 
+// 		inputB + ' = ' + 
+// 		addTwo(inputA, inputB))
 
 
