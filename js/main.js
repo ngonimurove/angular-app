@@ -20,9 +20,22 @@ var myObject = {
 
 // FUNCTIONS
 //================
-var myFunction = function(){
-	console.log('comes from myFunction')
+var myFunction = function(arg){
+	return 'argument is ' + arg
 }
 
-console.log(myFunction())
+var addTwo = function(a, b){
+	var num1 = parseInt(a)
+	var num2 = parseInt(b)
+	return num1 + num2
+}
+
+var inputA = prompt('enter a number!')
+var inputB = prompt('enter another number!')
+
+alert('The answer to ' + inputA + ' + ' + inputB + '= ' + addTwo(inputA, inputB))
+
+// console.log('The function returns: ' + myFunction('foo'))
+
+
 
