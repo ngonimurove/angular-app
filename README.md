@@ -1,9 +1,9 @@
 template-project
 ============
 
-jQuery documentation: jquery.com
+jQuery documentation: https://api.jquery.com/
 
-Twitter Bootstrap 3: getbootstrap.com
+Twitter Bootstrap 3: http://getbootstrap.com
 
 About arrays: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
