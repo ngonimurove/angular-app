@@ -10,14 +10,22 @@
 </head>
 <body>
 
-<h1>Hello world</h1>
+<div class='row text-center'>
+	<h1>Addition calculator</h1>
+	<input type='text' id='inputA' placeholder='Enter a number!'>
+	 + <input type='text' id='inputB' placeholder='Enter another number!'>
 
-<input type='text' id='inputA' placeholder='Enter a number!'>
- + <input type='text' id='inputB' placeholder='Enter another number!'>
+	<div id='addtwo' class='btn btn-success'>Add two</div>
+	<div id='hideAnswer' class='btn btn-default'>Hide answer</div>
+	
+	<div id='answer-contain'>
+		<h2 id='answer'></h2>
+	</div>
+</div>
 
-<div id='addtwo' class='btn btn-success'>Add two</div>
-<div id='hideAnswer' class='btn btn-default'>Hide answer</div>
-<h2 id='answer'></h2>
+<div class='row text-center'>
+	<div id='showContent' class='btn btn-primary'>Another button</div>
+</div>
 
 <script src='js/jquery-1.10.2.js'></script>
 <script src='js/bootstrap.js'></script>

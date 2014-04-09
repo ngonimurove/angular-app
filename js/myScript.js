@@ -1,7 +1,10 @@
 // jQuery introduction
 
+// CALCULATOR
+// ============
 $('#addtwo').on('click', function(){
 	$('#answer').hide()
+
 	var inputA = $('#inputA').val()
 	var inputB = $('#inputB').val()
 
@@ -10,5 +13,10 @@ $('#addtwo').on('click', function(){
 })
 
 $('#hideAnswer').click(function(){
-	$('#answer').fadeOut(500)
+	$('#answer').fadeOut(1500, function(){
+		console.log('animation has finished!')
+	})
 })
+
+// SHOW CONTENT
+// ============
