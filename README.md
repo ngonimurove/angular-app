@@ -24,4 +24,3 @@ Node.js (for JS on server side): www.nodejs.org
 Google maps getting started: https://developers.google.com/maps/documentation/javascript/tutorial
 
 Leaflet.js (JS mapping library): http://leafletjs.com/examples/quick-start.html
-
